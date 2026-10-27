@@ -133,6 +133,14 @@ const CONFIG_PROJECTS = [
         demo: 'https://sky-view-rizo.onrender.com/',
         description: 'Real-time weather application fetching live data using OpenWeather API. Features current conditions, forecasts, and location-based weather information.',
     },
+    {
+        name: 'PageSense AI - Smart Page Assistant',
+        cover: 'pagesense-ai.png',
+        category: 'AI',
+        github: 'https://github.com/kartikbhai23/Pagesense-ai',
+        demo: 'https://pagesense-ai.onrender.com/docs',
+        description: 'An AI-powered Chrome extension that allows users to ask questions about the current webpage. Built using HTML, CSS, JavaScript, FastAPI, and Google Gemini, with a cloud-hosted backend for intelligent webpage understanding.',
+    },
 ];
 
 const CONFIG_GITHUB_USER = 'kartikbhai23';
