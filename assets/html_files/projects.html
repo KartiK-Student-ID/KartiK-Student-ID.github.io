@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,6 +71,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -81,6 +83,7 @@
                 opacity: 0;
                 transform: scaleX(0);
             }
+
             to {
                 opacity: 1;
                 transform: scaleX(1);
@@ -91,6 +94,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -122,11 +126,25 @@
             animation: fadeIn 0.5s ease-out forwards;
         }
 
-        .filter-btn:nth-child(1) { animation-delay: 0.6s; }
-        .filter-btn:nth-child(2) { animation-delay: 0.7s; }
-        .filter-btn:nth-child(3) { animation-delay: 0.8s; }
-        .filter-btn:nth-child(4) { animation-delay: 0.9s; }
-        .filter-btn:nth-child(5) { animation-delay: 1s; }
+        .filter-btn:nth-child(1) {
+            animation-delay: 0.6s;
+        }
+
+        .filter-btn:nth-child(2) {
+            animation-delay: 0.7s;
+        }
+
+        .filter-btn:nth-child(3) {
+            animation-delay: 0.8s;
+        }
+
+        .filter-btn:nth-child(4) {
+            animation-delay: 0.9s;
+        }
+
+        .filter-btn:nth-child(5) {
+            animation-delay: 1s;
+        }
 
         .filter-btn:hover {
             background: rgba(0, 212, 255, 0.1);
@@ -173,6 +191,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -349,6 +368,7 @@
         }
     </style>
 </head>
+
 <body class="projects-page">
     <!-- Navigation -->
     <nav class="main-nav">
@@ -383,16 +403,19 @@
     <!-- Projects Container -->
     <div class="projects-container">
         <div class="projects-grid" id="projectsGrid">
-            
+
             <!-- Sky View Weather Dashboard -->
             <div class="project-card visible" data-category="api,other">
                 <div class="project-image">
-                    <img src="https://github.com/kartikbhai23/Sky-View/raw/main/screenshots/homepage.png" alt="Sky View Weather Dashboard">
+                    <img src="https://github.com/kartikbhai23/Sky-View/raw/main/screenshots/homepage.png"
+                        alt="Sky View Weather Dashboard">
                     <div class="project-links-overlay">
-                        <a href="https://github.com/kartikbhai23/Sky-View.git" class="project-link-btn" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+                        <a href="https://github.com/kartikbhai23/Sky-View.git" class="project-link-btn" target="_blank"
+                            rel="noopener noreferrer" title="View on GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://sky-view-rizo.onrender.com/" class="project-link-btn" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                        <a href="https://sky-view-rizo.onrender.com/" class="project-link-btn" target="_blank"
+                            rel="noopener noreferrer" title="Live Demo">
                             <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
@@ -404,76 +427,63 @@
                     </div>
                     <h2 class="project-title">Sky View - Weather Dashboard</h2>
                     <p class="project-description">
-                        Real-time weather application fetching live data using OpenWeather API. Features current conditions, forecasts, and location-based weather information.
+                        Real-time weather application fetching live data using OpenWeather API. Features current
+                        conditions, forecasts, and location-based weather information.
                     </p>
                 </div>
             </div>
-            
-           
-<!-- PageSense AI Chrome Extension -->
-<div class="project-card visible" data-category="other,api">
 
-    <div class="project-image">
-        <img
-            src="https://github.com/kartikbhai23/Pagesense-ai/raw/main/screenshot/cover%20photo.png"
-            alt="PageSense AI Chrome Extension"
-            loading="lazy"
-        >
 
-        <div class="project-links-overlay">
+            <!-- PageSense AI Chrome Extension -->
+            <div class="project-card visible" data-category="other,api">
 
-            <!-- GitHub Repository -->
-            <a
-                href="https://github.com/kartikbhai23/Pagesense-ai"
-                class="project-link-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View Source Code"
-                aria-label="View PageSense AI on GitHub"
-            >
-                <i class="fab fa-github"></i>
-            </a>
+                <div class="project-image">
+                    <img src="https://github.com/kartikbhai23/Pagesense-ai/raw/main/screenshot/cover%20photo.png"
+                        alt="PageSense AI Chrome Extension" loading="lazy">
 
-            <!-- Live Backend API Documentation -->
-            <a
-                href="https://pagesense-ai.onrender.com/docs"
-                class="project-link-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="View Live API Documentation"
-                aria-label="Open PageSense AI API documentation"
-            >
-                <i class="fas fa-external-link-alt"></i>
-            </a>
+                    <div class="project-links-overlay">
 
-        </div>
-    </div>
+                        <!-- GitHub Repository -->
+                        <a href="https://github.com/kartikbhai23/Pagesense-ai" class="project-link-btn" target="_blank"
+                            rel="noopener noreferrer" title="View Source Code" aria-label="View PageSense AI on GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
 
-    <div class="project-content">
+                        <!-- Live Backend API Documentation -->
+                        <a href="https://pagesense-ai.onrender.com/docs" class="project-link-btn" target="_blank"
+                            rel="noopener noreferrer" title="View Live API Documentation"
+                            aria-label="Open PageSense AI API documentation">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
 
-        <div class="project-categories">
-            <span class="project-category">AI</span>
-            <span class="project-category">Chrome Extension</span>
-            <span class="project-category">API</span>
-        </div>
+                    </div>
+                </div>
 
-        <h2 class="project-title">
-            PageSense AI - Smart Page Assistant
-        </h2>
+                <div class="project-content">
 
-        <p class="project-description">
-            An AI-powered Chrome extension that allows users to ask
-            questions about the current webpage. Built using HTML, CSS,
-            JavaScript, FastAPI, and Google Gemini, with a cloud-hosted
-            backend for intelligent webpage understanding.
-        </p>
+                    <div class="project-categories">
+                        <span class="project-category">AI</span>
+                        <span class="project-category">Chrome Extension</span>
+                        <span class="project-category">API</span>
+                    </div>
 
-    </div>
+                    <h2 class="project-title">
+                        PageSense AI - Smart Page Assistant
+                    </h2>
 
-</div>
+                    <p class="project-description">
+                        An AI-powered Chrome extension that allows users to ask
+                        questions about the current webpage. Built using HTML, CSS,
+                        JavaScript, FastAPI, and Google Gemini, with a cloud-hosted
+                        backend for intelligent webpage understanding.
+                    </p>
+
+                </div>
+
+            </div>
 
             <!-- Add more projects here following the same structure -->
-            
+
         </div>
     </div>
 
@@ -496,17 +506,17 @@
         let lastScrollTop = 0;
         const nav = document.querySelector('.main-nav');
         const header = document.querySelector('.projects-header');
-        
-        window.addEventListener('scroll', function() {
+
+        window.addEventListener('scroll', function () {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
+
             // Add scrolled class for enhanced background
             if (scrollTop > 50) {
                 nav.classList.add('scrolled');
             } else {
                 nav.classList.remove('scrolled');
             }
-            
+
             // Hide/show navbar based on scroll direction
             if (scrollTop > lastScrollTop && scrollTop > 100) {
                 // Scrolling down - move header down slightly
@@ -517,12 +527,12 @@
                 nav.classList.remove('hidden');
                 header.style.transform = 'translateY(-10px)';
             }
-            
+
             // Reset header position at top
             if (scrollTop <= 50) {
                 header.style.transform = 'translateY(0)';
             }
-            
+
             lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
         });
 
@@ -541,7 +551,7 @@
 
                 projectCards.forEach((card, index) => {
                     const categories = card.getAttribute('data-category').split(',');
-                    
+
                     if (filter === 'all') {
                         card.style.display = 'block';
                         setTimeout(() => {
@@ -574,4 +584,5 @@
         });
     </script>
 </body>
+
 </html>
